@@ -1,0 +1,8 @@
+linters:
+  enable:
+    - goimports
+    - gosec
+  disable:
+    - errcheck
+run:
+  timeout: 1m
